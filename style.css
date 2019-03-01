@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Twenty nineteen enfant
+ Theme URI:    http://suicide&depression.ca
+ Description:  Twenty Nineteen Theme enfant
+ Author:       Catherine Beaudoin-Rheault
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+
+/*exemple du prof*/
+.site-branding .site-title{
+	font-size: 4em;
+}
+
+.site-branding .site-description{
+	font-size: 1em;
+	opacity: 0.7;
+	background-color:blue;
+	border-radius: 50px;
+}
+
+/*Mes classes*/
+.classe_liste_couleur{
+	border: 0.1em black dotted;
+ list-style-type: lower-alpha
+}
+
+.classe_image{
+	opacity:0.7;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.classe_image img{
+	border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.classe_image_carousel{
+    background-color: gray;
+    border:0.2em black solid;
+}
