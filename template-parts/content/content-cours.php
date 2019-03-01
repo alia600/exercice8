@@ -15,9 +15,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-			//echo get_the_title();
-			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
-
+			the_title( sprintf( '<div class="entry-title"><p href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</p></div>' );
 		?>
 	</header><!-- .entry-header -->
 </article><!-- #post-${ID} -->
